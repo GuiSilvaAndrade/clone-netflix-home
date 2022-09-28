@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+html {
+    font-size:  62.5%;
+}
+
+.logo img {
+    max-width: 16%; 
+}
+
+.signin button {
+    background: red;
+    font-size: 1.6rem;
+    padding: 0.7rem 1.7rem;
+    color: white;
+    border: none;
+    border-radius: 0.4rem;
+}
+
+.menu {
+    margin: 3rem 5.5rem;    
+    position: relative; 
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.background-main img {
+    margin-top: -25rem;
+    width: 100%;
+    height: 88rem;
+}
+
+.line-gray {
+    width: 100%;
+    height: 0.8rem;
+    background: rgb(83, 81, 81);
+    position: relative;
+    top: -0.3rem;    
+}
+
+.main-text {
+    position:absolute;
+    max-width: 64rem;
+    max-height: 11rem;    
+    text-align: center;
+    top: 31.6%;
+    margin-top: -5.5rem;
+    left: 50%;
+    margin-left: -32rem;
+    font-family: sans-serif;
+}
+
+.main-text h1{
+    font-size: 6.1rem;
+    color: white;   
+    font-weight: 800;
+}
+
+.main-text h2{
+    font-size: 2.7rem;
+    color: white; 
+    font-weight: 400;  
+    padding: 1.8rem;
+}
+
+.main-text h3{
+    font-size: 1.85rem;
+    color: white;  
+    font-weight: 300; 
+    padding: 2rem 0;
+}
