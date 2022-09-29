@@ -10,25 +10,26 @@
 </head>
 
 <body>
-    <section class="menu">
-        <h1 class="logo">
+    <div class="main">
+        <nav class="navbar">
             <img src="./assets/img/logo.svg" alt="Logo Netflix">
-        </h1>
-        <nav class="signin">
-            <button type="submit">Entrar</button>
+            <select name="select" id="select">
+                <option value="en">English</option>
+                <option value="pt-br">Português</option>
+            </select>
+            <button id="btn-login" type="submit">Entrar</button>
         </nav>
-    </section>
 
-    <section class="background-main">
-        <img src="./assets/img/background-gradient.png" alt=" background with movies">
-        <div class="main-text">
+        <div class="main-content">
             <h1>Filmes, séries e muito mais. Sem limites.</h1>
             <h2>Assista onde quiser. Cancele quando quiser.</h2>
-            <h3>Pronto para assistir? Informe seu email para criar ou reiniciar sua assinatura.</h3>
+            <form action="GET">
+                <h3>Pronto para assistir? Informe seu email para criar ou reiniciar sua assinatura.</h3>
+                <input type="email" placeholder="Email">
+                <button type="submit">Vamos lá></button>
+            </form>
         </div>
-        <p class="line-gray"></p>
-    </section>
-
+    </div>
 </body>
 
 </html>
