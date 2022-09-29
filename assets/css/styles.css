@@ -8,6 +8,10 @@ html {
     font-size:  62.5%;
 }
 
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
 .main {
     background: url('/assets/img/background-gradient.png');
     position: absolute;
@@ -47,3 +51,77 @@ html {
     border-radius: 0.2rem;
     font-size: 1.5rem;
 }
+
+.main-content {
+    max-width: 64rem;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center; 
+    margin: 13rem auto;
+    gap: 1rem;   
+}
+
+.main-content h1{
+    font-size: 5.9rem;      
+    text-align: center;
+}
+
+.main-content h2{
+    font-size: 2.5rem;
+    font-weight: 200;     
+}
+
+.main-form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: 2rem;
+}
+.main-form .send-email {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 2rem;
+}
+
+.main-form h3 {
+    font-size: 1.7rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+.send-email input {
+    width: 42rem;
+    height: 6rem;
+    background: white;
+    border: 0.1rem solid rgb(80, 80, 80);
+    outline: none;
+
+}
+
+.send-email input::placeholder, .send-email input:focus{
+    font-size: 1.5rem;
+    padding-left: 2rem;
+    align-items: center;
+}
+
+.send-email button {
+    width: 16rem;
+    height: 6rem;
+    background: red;
+    border: 0.1rem solid rgb(80, 80, 80);
+    font-size: 2.5rem;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
