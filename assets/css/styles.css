@@ -41,7 +41,7 @@ body {
     width: 10rem;
     height: 3.6rem;
     border-radius: 0.2rem;
-    text-align: center;
+    text-align: center;    
 }
 
 #btn-login {
@@ -53,6 +53,7 @@ body {
     border-radius: 0.2rem;
     font-size: 1.7rem;
     font-weight: 400;
+    cursor: pointer;
 }
 
 .main-content {
@@ -124,6 +125,10 @@ body {
     cursor: pointer;
 }
 
+
+/* SECION ONE*/
+
+
 .line-gray {
     position: relative;
     background: rgb(37, 37, 37);
@@ -139,6 +144,7 @@ body {
     width: 100%;
     top: -0.2rem;      
     padding: 4.5rem 4.5rem;
+    z-index: -2;
 }
 
 .section {
@@ -170,11 +176,7 @@ body {
     padding: 2rem 0;
 }
 
-.section-one-objects {
-    position: relative;
-}
-
-.section-one-objects img{       
+.section-one-objects img {       
     height: 37.6rem;
  }
 
@@ -183,7 +185,12 @@ body {
     top:7.8rem;
     left: 6.53rem;  
     width: 36.6rem;
+    z-index: -1;
 }
+
+
+/* SECION TWO*/
+
 
 .block-mobile img{
     height: 37.9rem;
@@ -227,6 +234,26 @@ body {
     width: 5rem;
 }
 
+
+/* SECION THREE*/
+
+
+.section-three-objects img{       
+    height: 37.6rem;
+ }
+
+.section-three-objects {
+    width: 50rem;
+    position: relative;
+}
+
+.section-three-video video {
+    position: absolute;  
+    top: 4rem;
+    left: 9.5rem;  
+    width: 30.5rem;
+    z-index: -1;
+}
 
 
 
